@@ -1,0 +1,191 @@
+body{
+  background-image: url(../images/arab_tile.png);
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width:960px;
+  height:60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Teal block name header*/
+.header_name{
+  flex:1;
+  background:#4aaaa5;
+  color:white;
+  padding-top:20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-size: 24px;
+}
+
+/*Navbar*/
+ul.navbar{
+  display:flex;
+  flex-direction: row;
+  flex:auto;
+  align-items: center;
+  justify-content: space-between;
+  font-family:"Georgia", Times, "Times New Roman", serif;
+  color:#aba29d;
+}
+
+/*Navbar menu items*/
+.menu_About{
+  list-style: none;
+  flex:4;
+  text-align: right;
+}
+.menu_item{
+  list-style:none;
+  flex:1;
+  text-align: right;
+}
+
+/*Divs for background*/
+/*.background{
+  display: flex;
+  background-image:url("../images/arab_tile.png");
+  height:auto;
+}
+.top_space{
+  height:50px;
+  width: 100%;
+  background-image:url("../images/arab_tile.png");
+  border-top: 2px solid #cccccc;
+}*/
+
+/*Main Content Section*/
+section{
+  display: flex;
+  flex-direction: row;
+  width:960px;
+  margin:auto;
+  background-color:#efefef;
+  /*background-image:url("../images/arab_tile.png");*/
+}
+.main_content{
+  width:606px;
+  border: 2px solid #dddddd;
+  background-color:#ffffff;
+  margin-right: auto;
+  padding:20px;
+}
+.main_content_head{
+  color:#4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size:24px;
+  font-weight:bold;
+  border-bottom:2px solid #cccccc;
+  padding-bottom:20px;
+}
+img.pic_ida{
+  float:left;
+  padding-top:20px;
+  padding-right:10px;
+  width:400px;
+  height:250px;
+}
+p{
+  padding-top: 20px;
+  line-height: 35px;
+}
+aside{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:270px;
+  height:200px;
+  border: 2px solid #dddddd;
+  background-color:#ffffff;
+  margin-left: auto;
+}
+.connect_links{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+.connect{
+  border-bottom:2px solid #cccccc;
+  color:#4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: bold;
+  font-size:18px;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.github{
+  width:65px;
+  length:60px;
+}
+.linkedin{
+  width:65px;
+  length:60px;
+  padding:0px;
+}
+.stackoverflow{
+  width:60px;
+  length:55px;
+  padding:3px;
+}
+.bottom_space{
+  height:50px;
+  width:100%;
+  background-color:#efefef;
+}
+footer{
+  background-color:#666666;
+  top:-10px;
+  clear:both;
+  color:white;
+  text-align: center;
+  padding-top:20px;
+  padding-bottom:20px;
+  position: relative;
+}
+.footer_top{
+  background:#4aaaa5;
+  position: absolute;
+  top:-10px;
+  height:10px;
+  width:100%;
+}
+.form{
+  width:100%;
+}
+input{
+  width:100%;
+}
+textarea{
+  height:200px;
+  width:100%;
+}
+input#submit{
+  width:75px;
+  height:50px;
+}
+div.wrapper{
+  position:relative;
+  float: left;
+  margin:25px;
+}
+div.description{
+  position: absolute;
+  bottom: 10px;
+  width:100%;
+  background:#4aaaa5;
+}
+.description_content{
+  color:white;
+  font-size:24px;
+  text-align: center;
+}
+img.portfolio{
+  width:250px;
+  height:200px;
+}
